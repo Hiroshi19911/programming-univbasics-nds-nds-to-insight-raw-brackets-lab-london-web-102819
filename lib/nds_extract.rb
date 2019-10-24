@@ -5,5 +5,6 @@ def directors_totals(nds)
   director_total  = 0
   result = {}
   directors_database.each do |director|
+    director[:movies].each do |movie|
   nil
 end
