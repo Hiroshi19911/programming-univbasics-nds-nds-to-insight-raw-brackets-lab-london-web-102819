@@ -9,5 +9,6 @@ def directors_totals(nds)
       director_total += movie[:worldwide_gross]
     end 
     result[director[:name]] = director_total
+    director_total = 0
   nil
 end
